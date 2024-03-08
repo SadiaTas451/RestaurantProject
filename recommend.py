@@ -3,9 +3,7 @@ from data import ALL_RESTAURANTS
 from abstractions import *
 
 
-##################################
-# Phase 2: Supervised Learning! #
-##################################
+
 class LinearRegression:
     """A linear regression model to predict ratings
     a user might give to a restaurant."""
