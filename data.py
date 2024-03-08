@@ -7,9 +7,7 @@ from abstractions import *
 DATA_DIRECTORY = '/Users/sadiatasnim/Desktop/2130_project/code/datafolder'
 
 
-# Utilities to support loading data in datafolder
-# The data in datafolder is in the JSON format!
-# You do not need to alter this file.
+
 def load(fp, **kw):
     return [loads(obj, **kw) for obj in fp]
 
