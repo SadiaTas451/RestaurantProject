@@ -10,9 +10,6 @@ def map_and_filter(s: list[Any], map_fn: Callable, filter_fn: Callable) -> list[
     """Accept a list. Return a new list containing
     the result of calling `map_fn` on each item in the sequence `s`
     for which `filter_fn` returns a true value.
-    We will demonstrate this in the doctest on
-    lists of Restaurants, but this method
-    should work with lists of other types.
     >>> getname = lambda x: x.get_name()
     >>> is_good = lambda x: x.restaurant_mean_rating() > 4
     >>> map_and_filter(ALL_RESTAURANTS[:10], getname, is_good)
